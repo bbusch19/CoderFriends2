@@ -5,6 +5,7 @@ angular.module('friendsApp', ['ui.router']).config(function($stateProvider, $url
     $stateProvider
     .state('login', {
         url: '/',
+        templateUrl: './templates/login.html'
     })
     .state('home', {
         url: '/home',
